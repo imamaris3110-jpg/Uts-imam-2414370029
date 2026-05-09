@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupa Password</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body{
+            background: #a03d3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            background: rgb(244, 242, 247);
+            width: 350px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        p{
+            text-align: center;
+            color: #0c23f4;
+            margin-bottom: 30px;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 5px;
+            color: #4c4545;
+            font-size: 14px;
+        }
+
+        input{
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px; 
+        }
+
+        input:focus{
+            outline: none;
+            border-color: #161a1e;
+        }
+
+        button{
+            width: 100%;
+            padding: 12px;
+            background: #d51010;
+            border: none;
+            color: rgb(0, 111, 125);
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: #25527e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lupa Password</h1>
+
+        <form>
+            <label>Email</label>
+            <input type="text" placeholder="-">
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
